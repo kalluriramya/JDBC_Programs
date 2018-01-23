@@ -16,7 +16,7 @@ public class SearchEngineData
 	{		
 		try 
 		{
-			// Step1: Loading the PostgreSQL driver 
+			// Step1: Loading the PostgreSQL drivers 
 			Class.forName("org.postgresql.Driver");
 			
 			// Step2: Establish the Database Connection 
